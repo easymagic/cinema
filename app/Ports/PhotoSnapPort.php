@@ -1,12 +1,10 @@
 <?php 
 namespace App\Ports;
 
-interface HallPort{
-
-  
+interface PhotoSnapPort{
+ 
     function getName();
     function getImage();
-    function getDescription();
-
+    function getDescription();    
 
 }

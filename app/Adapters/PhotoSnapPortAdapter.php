@@ -1,12 +1,9 @@
-<?php
-
+<?php 
 namespace App\Adapters;
 
-// use App\Ports\HallPort;
 use App\Ports\PhotoSnapPort;
 
-class HallAdapter implements PhotoSnapPort
-{
+class PhotoSnapPortAdapter implements PhotoSnapPort{
 
     private $name = '';
     private $image = '';
@@ -33,4 +30,5 @@ class HallAdapter implements PhotoSnapPort
     {
         return $this->description;
     }
+
 }
